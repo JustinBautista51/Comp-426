@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+    <title>2048</title>
+   
+</head>
+
+<body>
+    <span id = "info">HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048!</span>
+    <span id="edit"><button id ="edit">Reset?</button></span>
+    <div id="win"> WINNER WINNER CHICKEN DINNER OM OM OM CONGRATULATIONS!!
+        <br>Continue playing if you please!<br></div>
+    <div id="lost"> EHE? IT SEEMS THAT YOU LOST :( <br>Click the reset button for a new game!</br></div>
+    <div id="root"></div>
+    
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="engine/game.js" type="module"></script>
+    <script src="render.js" type="module"></script>
+    
+</body>
+
+</html>

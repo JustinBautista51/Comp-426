@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-image: url(genshinfox.jpeg);
+
+}
+
+#board {
+    /* background-color: teal; */
+    width: 99vw;
+    height: 72vh;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#cell {
+    display: inline-block;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+    border-color: rgb(161, 109, 100);
+    border-style: solid;
+    background-image: url(paimonn.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+#info {
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    font-size: 30px;
+    max-width: 45vw;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+}
+
+
+#score {
+    display: inline-block;
+    background-color: rgb(105, 71, 129);
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+    width: 49vw;
+    height: 100px;
+    font-size: 40px;
+    float: right;
+    line-height: 90px;
+    color: white;
+    border-radius: 20px;
+}
+
+#edit {
+    background-color: rgb(223, 201, 9);
+    height: 100px;
+    width: 90px;
+    float: right;
+    display: block;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(146, 20, 219, 0.712);
+}
+
+#win {
+    background-color: rgb(14, 161, 125);
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 177, 8, 0.712);
+}
+
+#lost {
+    background-color: rgb(105, 145, 255);
+    text-align: center;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 1, 1, 0.712);
+}
